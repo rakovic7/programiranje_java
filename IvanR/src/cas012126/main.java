@@ -4,7 +4,7 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String ime = "Pero";
+		String ime = "Peror";
 		String ime2 = "Pero";
 		String prezime = "Perovic";
 		String ImePrezime = ime + " " + prezime;
@@ -21,6 +21,8 @@ public class main {
 		System.out.println(ime.compareTo(prezime)>0);
 		ime = ime.replace("o", "a");
 		System.out.println(ime);
+		String izraz = "123*45";
+		System.out.println();
 		
 		
 
