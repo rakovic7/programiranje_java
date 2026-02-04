@@ -4,11 +4,7 @@ import java.util.Scanner;
 
 public class main {
 
-	/*
-	 * napisati funkciju koja za unijeti string ispisuje koliko ima samoglasnika
-	 * A E I O U
-	 * npr za Informatika vraca 5
-	 */
+	
 	
 	/*/
 	 * napisati funkciju koja vraca predati string naopako
@@ -22,6 +18,13 @@ public class main {
 	
 	/*
 	 * Vraca broj rijeci u stringu (recenici)
+	 */
+	
+	
+	/*
+	 * napisati funkciju koja za unijeti string ispisuje koliko ima samoglasnika
+	 * A E I O U
+	 * npr za Informatika vraca 5
 	 */
 	
 	public static void main(String[] args) {

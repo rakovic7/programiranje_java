@@ -15,6 +15,7 @@ public class main1 {
 		System.out.println("Unesi string:");
 		String string = input.nextLine();
 		System.out.println(naopako(string));
+		System.out.println("Broj rijeci u ovoj recenici je " + brRijeciUrecenici());
 
 
 	}
@@ -26,5 +27,18 @@ public class main1 {
 		}
 		return pom;
 	}
-
+	
+	
+	public static int brRijeciUrecenici(String s) {
+		int broj = 1;
+		for (int i=0;i<s.length();i++) {
+			if (s.charAt(1)== ' ') {
+				broj++;
+			}
+		}
+	    return broj;
+	}
+	
+	
+	
 }
